@@ -37,7 +37,7 @@ def plot_pwm_logo(file_path, dataset_name, center_length=30):
             seq, label = line.strip().split("\t")
             sequences.append(seq)
             labels.append(int(label))
-
+            
     enhancer_sequences = [seq for seq, label in zip(sequences, labels) if label == 1]
     non_enhancer_sequences = [seq for seq, label in zip(sequences, labels) if label == 0]
 
