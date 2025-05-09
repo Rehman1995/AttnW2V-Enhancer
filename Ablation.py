@@ -7,7 +7,7 @@ import numpy as np
 from gensim.models import Word2Vec
 from itertools import product
 import random
-
+ 
 
 def set_seed(seed=43):
     random.seed(seed)
