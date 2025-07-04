@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, f1_score, confusion_matrix, precisio
 import numpy as np
 from gensim.models import Word2Vec
 from itertools import product
-import random 
+import random  
  
 
 def set_seed(seed=43):
