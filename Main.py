@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 from sklearn.metrics import accuracy_score, f1_score, confusion_matrix, precision_recall_curve, roc_auc_score
-import numpy as np
+import numpy as np 
 from gensim.models import Word2Vec
 from itertools import product 
 import random 
