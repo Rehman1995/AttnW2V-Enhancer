@@ -2,7 +2,7 @@
 """
 Created on Sun Mar 23 16:56:53 2025
 
-@author: Rehman  
+@author: Rehman   
 """
 
 import torch
