@@ -7,7 +7,7 @@ Created on Sun Mar 23 16:56:53 2025
 
 import torch
 import torch.nn as nn
-import torch.optim as optim
+import torch.optim as optim 
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
